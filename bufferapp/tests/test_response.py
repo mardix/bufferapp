@@ -1,6 +1,6 @@
 from nose.tools import eq_
 
-from buffpy.response import ResponseObject
+from bufferapp.response import ResponseObject
 
 def test_reponse_check_for_inception():
   '''

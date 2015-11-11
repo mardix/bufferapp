@@ -1,4 +1,4 @@
-from buffpy.response import ResponseObject
+from bufferapp.response import ResponseObject
 
 PATHS = {
   'GET_SHARES': 'links/shares.json?url=%s'

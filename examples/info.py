@@ -1,4 +1,4 @@
-from buffpy.api import API
+from bufferapp.api import API
 
 # check http://bufferapp.com/developers/apps to retrieve a token
 # or generate one with the example

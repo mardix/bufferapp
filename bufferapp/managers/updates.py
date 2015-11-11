@@ -1,4 +1,4 @@
-from buffpy.models.update import Update
+from bufferapp.models.update import Update
 
 PATHS = {
   'GET_PENDING': 'profiles/%s/updates/pending.json',

@@ -2,10 +2,10 @@ from pprint import pprint as pp
 
 from colorama import Fore
 
-from buffpy.models.update import Update
-from buffpy.managers.profiles import Profiles
-from buffpy.managers.updates import Updates
-from buffpy.api import API
+from bufferapp.models.update import Update
+from bufferapp.managers.profiles import Profiles
+from bufferapp.managers.updates import Updates
+from bufferapp.api import API
 
 # check http://bufferapp.com/developers/apps to retrieve a token
 # or generate one with the example

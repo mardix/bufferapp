@@ -3,8 +3,8 @@ import json
 from nose.tools import eq_, raises
 from mock import MagicMock, patch
 
-from buffpy.managers.updates import Updates
-from buffpy.models.update import Update
+from bufferapp.managers.updates import Updates
+from bufferapp.models.update import Update
 
 def test_updates_manager_pending():
   '''

@@ -1,7 +1,7 @@
 from nose.tools import eq_
 from mock import MagicMock, patch
 
-from buffpy.models.profile import Profile, PATHS
+from bufferapp.models.profile import Profile, PATHS
 
 mocked_response = {
   'name': 'me',
@@ -46,7 +46,7 @@ def test_profile_updates():
 
   mocked_api = MagicMock()
 
-  with patch('buffpy.models.profile.Updates') as mocked_updates:
+  with patch('bufferapp.models.profile.Updates') as mocked_updates:
     profile = Profile(api=mocked_api, raw_response={'id': 1})
     updates = profile.updates
 

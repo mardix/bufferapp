@@ -9,14 +9,14 @@ requires_list = [
     'requests==1.2.3',
 ]
 
-setup(name='buffer-python',
-      version='1.07',
+setup(name='bufferapp',
+      version='0.2.0',
       platforms='any',
       description='Python library for Buffer App',
-      author='Vlad Temian',
-      author_email='vladtemian@gmail.com',
-      url='https://github.com/bufferapp/buffer-python',
-      packages=['buffpy'],
+      author='Mardix, Vlad Temian',
+      author_email='mardix@pylot.io, vladtemian@gmail.com',
+      url='https://github.com/mardix/bufferapp',
+      packages=['bufferapp'],
       include_package_data=True,
       install_requires=requires_list,
       classifiers=[

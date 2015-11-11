@@ -1,7 +1,5 @@
-*.py[cod]
-
-# C extensions
-*.so
+*.py[co]
+__pycache__*
 
 # Packages
 *.egg
@@ -15,21 +13,18 @@ var
 sdist
 develop-eggs
 .installed.cfg
-lib
-lib64
+MANIFEST
 
-# Installer logs
-pip-log.txt
+# PyCharm
+.idea/*
+.idea/libraries/sass_stdlib.xml
+.sass-cache
 
-# Unit test / coverage reports
-.coverage
-.tox
-nosetests.xml
+# Distribution
+#/dist/*
 
-# Translations
-*.mo
+# Mac stuff
+.DS_Store
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
+docs/_build*
+

@@ -1,4 +1,4 @@
-from buffpy.response import ResponseObject
+from bufferapp.response import ResponseObject
 
 class User(ResponseObject):
   '''
